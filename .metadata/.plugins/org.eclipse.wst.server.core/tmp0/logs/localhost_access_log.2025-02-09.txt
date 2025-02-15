@@ -1,0 +1,16 @@
+127.0.0.1 - - [09/Feb/2025:03:10:40 +0800] "GET / HTTP/1.1" 404 755
+127.0.0.1 - - [09/Feb/2025:03:10:40 +0800] "GET /HelloWorld/ HTTP/1.1" 200 148
+127.0.0.1 - - [09/Feb/2025:03:10:46 +0800] "GET /HelloWorld/form.html HTTP/1.1" 200 492
+127.0.0.1 - - [09/Feb/2025:03:10:46 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [09/Feb/2025:03:10:55 +0800] "GET /HelloWorld/calculator.html HTTP/1.1" 200 1008
+127.0.0.1 - - [09/Feb/2025:03:10:55 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [09/Feb/2025:03:11:16 +0800] "POST /HelloWorld/calculate HTTP/1.1" 500 3583
+127.0.0.1 - - [09/Feb/2025:03:34:52 +0800] "GET / HTTP/1.1" 404 755
+127.0.0.1 - - [09/Feb/2025:03:34:53 +0800] "GET /HelloWorld/ HTTP/1.1" 200 148
+127.0.0.1 - - [09/Feb/2025:03:34:53 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [09/Feb/2025:03:35:13 +0800] "GET /HelloWorld/calculator.html HTTP/1.1" 200 1008
+127.0.0.1 - - [09/Feb/2025:03:35:13 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [09/Feb/2025:03:35:21 +0800] "POST /HelloWorld/calculate HTTP/1.1" 200 117
+127.0.0.1 - - [09/Feb/2025:03:35:21 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [09/Feb/2025:03:35:42 +0800] "POST /HelloWorld/calculate HTTP/1.1" 200 117
+127.0.0.1 - - [09/Feb/2025:03:35:42 +0800] "GET /favicon.ico HTTP/1.1" 404 766

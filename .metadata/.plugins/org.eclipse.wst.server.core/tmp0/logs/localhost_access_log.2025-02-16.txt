@@ -1,0 +1,14 @@
+127.0.0.1 - - [16/Feb/2025:00:06:19 +0800] "GET / HTTP/1.1" 404 755
+127.0.0.1 - - [16/Feb/2025:00:06:19 +0800] "GET /HelloWorld/calculate HTTP/1.1" 405 755
+127.0.0.1 - - [16/Feb/2025:00:06:20 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [16/Feb/2025:00:06:33 +0800] "GET /HelloWorld/calculator.html HTTP/1.1" 200 1008
+127.0.0.1 - - [16/Feb/2025:00:06:33 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [16/Feb/2025:00:06:45 +0800] "POST /HelloWorld/calculate HTTP/1.1" 200 117
+127.0.0.1 - - [16/Feb/2025:00:45:03 +0800] "GET / HTTP/1.1" 404 755
+127.0.0.1 - - [16/Feb/2025:00:45:03 +0800] "GET /HelloWorld/login.html HTTP/1.1" 200 377
+127.0.0.1 - - [16/Feb/2025:00:45:11 +0800] "POST /HelloWorld/loginProcess HTTP/1.1" 302 -
+127.0.0.1 - - [16/Feb/2025:00:45:11 +0800] "GET /HelloWorld/login.html HTTP/1.1" 200 377
+127.0.0.1 - - [16/Feb/2025:00:45:23 +0800] "POST /HelloWorld/loginProcess HTTP/1.1" 302 -
+127.0.0.1 - - [16/Feb/2025:00:45:24 +0800] "GET /HelloWorld/welcome.jsp HTTP/1.1" 200 180
+127.0.0.1 - - [16/Feb/2025:00:45:24 +0800] "GET /favicon.ico HTTP/1.1" 404 766
+127.0.0.1 - - [16/Feb/2025:00:45:29 +0800] "GET /HelloWorld/LogoutServlet HTTP/1.1" 404 783

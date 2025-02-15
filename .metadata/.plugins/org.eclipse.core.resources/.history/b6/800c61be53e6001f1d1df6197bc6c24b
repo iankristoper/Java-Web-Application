@@ -1,0 +1,68 @@
+package test;
+
+
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+
+
+
+@WebServlet("/calculate")
+public class CalculatorProcess extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	@Override 
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		try {
+			//retrieving input values from the form
+			double num1 = Double.parseDouble(request.getParameter("num1"));
+			double num2 = Double.parseDouble(request.getParameter("num2"));
+			
+			String operation = request.getParameter("operation");
+			
+			double result = 0;
+			String operationSymbol = "";
+			
+			//performing the selected operation 
+			
+			
+			
+			
+		}
+		
+		
+	
+		 
+		
+		
+	}
+	
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
