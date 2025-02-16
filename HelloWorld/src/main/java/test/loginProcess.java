@@ -22,7 +22,7 @@ public class loginProcess extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		//hardcoded credentials for testing 
+		//hard coded credentials for testing 
 		if("ian".equals(username) && "admin".equals(password)) {
 			
 			//create a session for the user

@@ -1,3 +1,4 @@
+
 <%@ page import="jakarta.servlet.http.HttpSession" %>
 
 
@@ -17,6 +18,6 @@
 </head>
 <body>
     <h2>Welcome, <%= sessions.getAttribute("user") %>!</h2>
-    <a href="LogoutServlet">Logout</a>
+    <a href="logoutProcess">Logout</a>
 </body>
 </html>
